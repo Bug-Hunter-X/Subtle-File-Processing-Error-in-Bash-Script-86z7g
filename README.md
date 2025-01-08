@@ -1,0 +1,3 @@
+This repository demonstrates a common, yet subtle, error in Bash scripting related to file processing. The script checks for the existence of an input file, but it lacks robust error handling during the actual file processing.  This can lead to unexpected behavior if the file processing step encounters problems (e.g., malformed data).  The solution showcases improved error handling and more robust file processing.
+
+The `bug.sh` file contains the flawed script, and `bugSolution.sh` provides a corrected version with more comprehensive error handling.
